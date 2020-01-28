@@ -1,0 +1,23 @@
+{
+  "name": "mastery-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w src/scss -o dist/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/html-css-mastery-project-repository-edis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/html-css-mastery-project-repository-edis/issues"
+  },
+  "homepage": "https://github.com/staten-island-tech/html-css-mastery-project-repository-edis#readme"
+}
