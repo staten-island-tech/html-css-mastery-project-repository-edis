@@ -1,0 +1,12 @@
+@import "config";
+
+// Utility Classes
+.container{
+  max-width: $max-width;
+  margin: auto;
+}
+
+.logo{
+  font-family: "Staatliches", sans-serif;
+  font-size: 3rem;
+}

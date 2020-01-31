@@ -1,0 +1,48 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#page-content #nav-bar #nav-bar-content {
+  display: flex;
+  justify-content: space-between; }
+  #page-content #nav-bar #nav-bar-content h1 {
+    margin: 1.5rem 1.5rem; }
+  #page-content #nav-bar #nav-bar-content ul {
+    display: flex; }
+    #page-content #nav-bar #nav-bar-content ul li {
+      font-size: 1.8rem;
+      padding: 1rem 1.5rem; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1100px;
+  margin: auto; }
+
+.logo {
+  font-family: "Staatliches", sans-serif;
+  font-size: 3rem; }

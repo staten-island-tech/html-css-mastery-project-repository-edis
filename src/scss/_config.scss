@@ -1,0 +1,27 @@
+// Color Variables
+$primary-dark: #6c5b7b;
+$secondary-dark: #c06c84;
+$primary-light: #f67280;
+$secondary-light: #f8b195;
+
+// Size Variables
+$max-width: 1100px;
+
+// Base Set-Up
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Lato", sans-serif;
+}
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
