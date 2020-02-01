@@ -1,0 +1,44 @@
+@media screen and (max-width: 1400px) {
+  html{
+    font-size: 50%;
+  }
+  #page-content{
+    #welcome{
+      height: 45vh;
+    }
+  }
+}
+
+@media screen and (max-width: 880px) {
+  html{
+    font-size: 30%;
+  }
+  #page-content{
+    #welcome{
+      height: 30vh;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html{
+    font-size: 20%;
+  }
+  #page-content{
+    #welcome{
+      height: 20vh;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html{
+    font-size: 10%;
+  }
+  #page-content{
+    #welcome{
+      height: 15vh;
+    }
+  }
+}
+

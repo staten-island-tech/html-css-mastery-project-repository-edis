@@ -1,18 +1,33 @@
+@import "config";
 #page-content{
   #nav-bar{
     #nav-bar-content{
       display: flex;
       justify-content: space-between;
       h1{
-        margin: 1.5rem 1.5rem;
+        margin: 1.8rem 1.5rem;
+        display: flex;
+        .logo-word {
+          margin-right: 0.75rem;
+        }
       }
       ul{
         display: flex;
         li{
-          font-size: 1.8rem;
-          padding: 1rem 1.5rem;
+          font-size: 2rem;
+          padding: 1.6rem 1.5rem;
+          a{
+            color: $secondary-dark;
+            text-transform: uppercase;
+            border-bottom: 3px transparent solid;
+            padding-bottom: 0.5rem;
+            transition: border-color 0.5s;
+            &:hover {
+              border-color: $primary-dark;
+            }
+          }
+          }
         }
       }
     }
   }
-}

@@ -13,16 +13,42 @@ ul {
 a {
   text-decoration: none; }
 
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato", sans-serif; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
 #page-content #nav-bar #nav-bar-content {
   display: flex;
   justify-content: space-between; }
   #page-content #nav-bar #nav-bar-content h1 {
-    margin: 1.5rem 1.5rem; }
+    margin: 1.8rem 1.5rem;
+    display: flex; }
+    #page-content #nav-bar #nav-bar-content h1 .logo-word {
+      margin-right: 0.75rem; }
   #page-content #nav-bar #nav-bar-content ul {
     display: flex; }
     #page-content #nav-bar #nav-bar-content ul li {
-      font-size: 1.8rem;
-      padding: 1rem 1.5rem; }
+      font-size: 2rem;
+      padding: 1.6rem 1.5rem; }
+      #page-content #nav-bar #nav-bar-content ul li a {
+        color: #c06c84;
+        text-transform: uppercase;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 0.5rem;
+        transition: border-color 0.5s; }
+        #page-content #nav-bar #nav-bar-content ul li a:hover {
+          border-color: #6c5b7b; }
 
 html {
   margin: 0;
@@ -45,4 +71,75 @@ a {
 
 .logo {
   font-family: "Staatliches", sans-serif;
-  font-size: 3rem; }
+  font-size: 4rem; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Staatliches", sans-serif; }
+
+.logo-letter {
+  color: #f67280; }
+
+#welcome {
+  height: 70vh;
+  display: flex;
+  justify-content: center; }
+  #welcome #welcome-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; }
+  #welcome #welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    #welcome #welcome-content h1 {
+      color: #071e22;
+      position: relative;
+      font-size: 10rem;
+      margin-bottom: 0; }
+    #welcome #welcome-content .arrow {
+      width: 4rem;
+      height: 4rem;
+      margin-bottom: 4rem;
+      background-size: contain;
+      font-size: 5rem;
+      animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
+    #welcome #welcome-content p {
+      position: relative;
+      font-size: 2.5rem;
+      text-align: center;
+      padding-bottom: 1rem; }
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 50%; }
+  #page-content #welcome {
+    height: 45vh; } }
+
+@media screen and (max-width: 880px) {
+  html {
+    font-size: 30%; }
+  #page-content #welcome {
+    height: 30vh; } }
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 20%; }
+  #page-content #welcome {
+    height: 20vh; } }
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 10%; }
+  #page-content #welcome {
+    height: 15vh; } }
