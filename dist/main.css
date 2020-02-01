@@ -49,6 +49,8 @@ a {
         transition: border-color 0.5s; }
         #page-content #nav-bar #nav-bar-content ul li a:hover {
           border-color: #6c5b7b; }
+  #page-content #nav-bar #nav-bar-content .icon {
+    display: none; }
 
 html {
   margin: 0;
@@ -140,6 +142,8 @@ h1, h2, h3, h4, h5 {
 
 @media screen and (max-width: 400px) {
   html {
-    font-size: 10%; }
+    font-size: 15%; }
+  #page-content #nav-bar #nav-bar-content h1 span {
+    margin-right: 0.15rem; }
   #page-content #welcome {
     height: 15vh; } }
