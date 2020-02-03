@@ -1,6 +1,7 @@
 @import "config";
 #page-content{
   #nav-bar{
+    user-select: none;
     #nav-bar-content{
       display: flex;
       justify-content: space-between;

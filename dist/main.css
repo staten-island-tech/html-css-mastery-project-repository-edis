@@ -28,29 +28,31 @@ ul {
 a {
   text-decoration: none; }
 
-#page-content #nav-bar #nav-bar-content {
-  display: flex;
-  justify-content: space-between; }
-  #page-content #nav-bar #nav-bar-content h1 {
-    margin: 1.8rem 1.5rem;
-    display: flex; }
-    #page-content #nav-bar #nav-bar-content h1 .logo-word {
-      margin-right: 0.75rem; }
-  #page-content #nav-bar #nav-bar-content ul {
-    display: flex; }
-    #page-content #nav-bar #nav-bar-content ul li {
-      font-size: 2rem;
-      padding: 1.6rem 1.5rem; }
-      #page-content #nav-bar #nav-bar-content ul li a {
-        color: #c06c84;
-        text-transform: uppercase;
-        border-bottom: 3px transparent solid;
-        padding-bottom: 0.5rem;
-        transition: border-color 0.5s; }
-        #page-content #nav-bar #nav-bar-content ul li a:hover {
-          border-color: #6c5b7b; }
-  #page-content #nav-bar #nav-bar-content .icon {
-    display: none; }
+#page-content #nav-bar {
+  user-select: none; }
+  #page-content #nav-bar #nav-bar-content {
+    display: flex;
+    justify-content: space-between; }
+    #page-content #nav-bar #nav-bar-content h1 {
+      margin: 1.8rem 1.5rem;
+      display: flex; }
+      #page-content #nav-bar #nav-bar-content h1 .logo-word {
+        margin-right: 0.75rem; }
+    #page-content #nav-bar #nav-bar-content ul {
+      display: flex; }
+      #page-content #nav-bar #nav-bar-content ul li {
+        font-size: 2rem;
+        padding: 1.6rem 1.5rem; }
+        #page-content #nav-bar #nav-bar-content ul li a {
+          color: #c06c84;
+          text-transform: uppercase;
+          border-bottom: 3px transparent solid;
+          padding-bottom: 0.5rem;
+          transition: border-color 0.5s; }
+          #page-content #nav-bar #nav-bar-content ul li a:hover {
+            border-color: #6c5b7b; }
+    #page-content #nav-bar #nav-bar-content .icon {
+      display: none; }
 
 html {
   margin: 0;
@@ -84,7 +86,8 @@ h1, h2, h3, h4, h5 {
 #welcome {
   height: 70vh;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  user-select: none; }
   #welcome #welcome-video {
     position: fixed;
     left: 0;
