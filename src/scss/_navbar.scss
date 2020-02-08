@@ -1,4 +1,6 @@
 @import "config";
+
+// Nav-Bar
 #page-content{
   #nav-bar{
     user-select: none;
@@ -20,18 +22,17 @@
           a{
             color: $secondary-dark;
             text-transform: uppercase;
-            border-bottom: 3px transparent solid;
             padding-bottom: 0.5rem;
+            border-bottom: 3px transparent solid;
             transition: border-color 0.5s;
+
             &:hover {
               border-color: $primary-dark;
             }
+
           }
           }
         }
-      .icon{
-        display: none;
-      }
       }
     }
   }

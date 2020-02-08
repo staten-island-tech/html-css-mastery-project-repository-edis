@@ -5,17 +5,19 @@
   max-width: $max-width;
   margin: auto;
 }
+.section-container{
+  max-width: $max-width-section;
+  margin: auto;
+}
 
 .logo{
   font-family: "Staatliches", sans-serif;
   font-size: 4rem;
 }
 
-h1, h2, h3, h4, h5{
-  font-family: "Staatliches", sans-serif;
+.logo-letter{
+    color: $primary-light;
 }
 
-.logo-letter{
-    //-webkit-text-stroke: 1px black;
-    color: $primary-light;
+.card{
 }

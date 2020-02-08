@@ -1,14 +1,21 @@
+@import "config";
+
+// Desktops + Big Tablets
 @media screen and (max-width: 1400px) {
   html{
     font-size: 50%;
   }
   #page-content{
     #welcome{
-      height: 45vh;
+      height: 80vh;
+      #welcome-video{
+        width: auto;
+      }
     }
   }
 }
 
+// Tablets
 @media screen and (max-width: 880px) {
   html{
     font-size: 30%;
@@ -20,33 +27,57 @@
   }
 }
 
+// Phones + Small Devices
 @media screen and (max-width: 550px) {
-  html{
-    font-size: 20%;
-  }
-  #page-content{
-    #welcome{
-      height: 20vh;
-    }
-  }
-}
-
-@media screen and (max-width: 400px) {
   html{
     font-size: 15%;
   }
   #page-content{
     #nav-bar{
       #nav-bar-content{
+        display: flex;
+        justify-content: center;
+        border-bottom: $primary-border 1px dashed;
         h1{
-          span{
-            margin-right: 0.15rem;
+          font-size: 1250%;
+          .logo-word{
+            margin-right: 1rem;
           }
+          span{
+            margin-right: 0.05rem;
+          }
+        }
+        ul{
+          display: none;
         }
       }
     }
+
     #welcome{
-      height: 15vh;
+      #welcome-video{
+        left: -650px;
+        right: 0;
+        width: auto;
+      }
+      #welcome-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 70vh;
+        font-size: 50%;
+        h1{
+          font-size: 2750%;
+          text-align: center;
+        }
+        p{
+          font-size: 1500%;
+          margin-top: 4rem;
+        }
+        .fa-arrow-down{
+          font-size: 3000%;
+          margin-left: -8rem;
+        }
+      }
     }
   }
 }

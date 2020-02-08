@@ -7,47 +7,131 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <title>Visit Sunny San Diego</title>
+    <title>Visit San Diego</title>
 </head>
 <body>
 <div id="page-content">
-    <nav id="nav-bar">
-        <div class="container">
-            <div id="nav-bar-content">
-                <h1 class="logo">
-                    <span class="logo-word">
-                        <span class="logo-letter">S</span>an
-                    </span>
-                    <span class="logo-word">
-                        <span class="logo-letter">D</span>iego
-                    </span>
-                </h1>
-                <ul id="menu">
-                    <li><a href="#">Attractions</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Dining</a></li>
-                    <li><a href="#">Booking</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <header id="welcome">
-        <video autoplay muted loop id="welcome-video">
-            <source src="../media/videos/welcome.mp4" type="video/mp4">
-        </video>
-        <div class="container">
-            <div id="welcome-content">
-                <h1>It's Always Sunny in <span class="logo-letter">S</span>an <span class="logo-letter">D</span>iego</h1>
+    <!--  Nav-Bar  -->
+    <div class="intro">
+        <nav id="nav-bar">
+            <div class="container">
+                <div id="nav-bar-content">
+                    <!-- San Diego Logo -->
+                    <h1 class="logo">
+                        <span class="logo-word">
+                            <span class="logo-letter">S</span>an
+                        </span>
+                        <span class="logo-word">
+                            <span class="logo-letter">D</span>iego
+                        </span>
+                    </h1>
+                    <!-- Nav-Bar Menu -->
+                    <ul id="nav-bar-menu">
+                        <li><a href="#">Attractions</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Dining</a></li>
+                        <li><a href="#">Booking</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+    <!--  Welcome Section  -->
+        <header id="welcome">
+            <!-- Welcome Video -->
+                <video autoplay muted loop id="welcome-video">
+                    <source src="../media/videos/welcome.mp4" type="video/mp4">
+                </video>
+
+            <div class="container">
+                <!-- Welcome Title and Description -->
+                <div id="welcome-content">
+                    <h1>It's Always Sunny in <span class="logo-letter">S</span>an <span class="logo-letter">D</span>iego</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cumque, distinctio dolore iure minus
+                        necessitatibus non odit. Earum, eligendi illum ipsam ipsum iusto nulla omnis!
+                    </p>
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <section id="attractions">
+        <div class="section-container">
+            <div id="attractions-content">
+                <h1><span class="logo-letter">A</span>ttractions</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet in iure nihil obcaecati
-                    odio quam quas quibusdam reiciendis similique sunt!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, amet at corporis earum enim est
+                    id impedit laborum modi molestiae molestias natus nemo officia optio sit soluta vitae?
                 </p>
-                <i class="fas fa-arrow-down arrow"></i>
+                <div id="gallery">
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="../media/images/attractions-1.jpg">
+                            <div class="card-text">
+                                <h1>Bay Area</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eius error, hic maiores
+                                    nihil omnis. A accusantium autem, consequuntur dolore dolorum eos eum facilis id illo iste
+                                    iure laudantium modi perferendis praesentium, quam quod sequi suscipit, totam velit voluptas
+                                    voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut corporis
+                                    dicta eos eveniet, excepturi illo laboriosam maiores molestias necessitatibus nobis nulla
+                                    odit quia quod veritatis? Dignissimos facere officiis similique? Lorem ipsum dolor sit amet.
+                                </p>
+                                <div class="button button-visit">
+                                    <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                                    <a href="#" class="button-link">Let's Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="../media/images/attractions-2.jpg">
+                                <div class="card-text">
+                                    <h1>San Diego Zoo</h1>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eius error, hic maiores
+                                        nihil omnis. A accusantium autem, consequuntur dolore dolorum eos eum facilis id illo iste
+                                        iure laudantium modi perferendis praesentium, quam quod sequi suscipit, totam velit voluptas
+                                        voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus
+                                        cum doloribus eligendi illo iste odio officiis provident qui sequi similique tempore,
+                                        temporibus voluptate! Dignissimos id ipsum iste quidem suscipit! Lorem ipsum dolor sit amet.
+                                    </p>
+                                    <div class="button button-visit">
+                                        <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                                        <a href="#" class="button-link">Let's Visit</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <img src="../media/images/attractions-3.jpg">
+                            <div class="card-text">
+                                <h1>Gaslamp Quarter</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at dignissimos ea earum
+                                    nemo nobis odit quibusdam quo tempore! Aliquam, molestiae, quo! Accusamus consectetur
+                                    consequuntur deleniti dolor dolore doloremque error, esse eveniet ex, facere hic illum
+                                    ipsam itaque laboriosam laborum molestias perferendis quisquam quod, sapiente vero.
+                                    Aut blanditiis possimus voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Ad autem eos ex hic ipsum iure mollitia necessitatibus, non placeat provident.
+
+                                </p>
+                                <div class="button button-visit">
+                                    <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                                    <a href="#" class="button-link">Let's Visit</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
-
+    </section>
 </div>
     <script src="https://kit.fontawesome.com/da06c976d1.js" crossorigin="anonymous"></script>
 </body>
