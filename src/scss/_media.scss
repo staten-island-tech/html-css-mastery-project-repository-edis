@@ -2,80 +2,218 @@
 
 // Desktops + Big Tablets
 @media screen and (max-width: 1400px) {
-  html{
+  html {
     font-size: 50%;
   }
-  #page-content{
-    #welcome{
+  #page-content {
+    #welcome {
       height: 80vh;
-      #welcome-video{
+
+      #welcome-video {
         width: auto;
       }
     }
-  }
-}
 
-// Tablets
-@media screen and (max-width: 880px) {
-  html{
-    font-size: 30%;
-  }
-  #page-content{
-    #welcome{
-      height: 30vh;
-    }
-  }
-}
+    #attractions {
+      .section-container {
+        max-width: $max-width;
 
-// Phones + Small Devices
-@media screen and (max-width: 550px) {
-  html{
-    font-size: 15%;
-  }
-  #page-content{
-    #nav-bar{
-      #nav-bar-content{
-        display: flex;
-        justify-content: center;
-        border-bottom: $primary-border 1px dashed;
-        h1{
-          font-size: 1250%;
-          .logo-word{
-            margin-right: 1rem;
+        #gallery {
+          .card {
+            .card-text {
+              h1 {
+                top: -66px;
+                left: -9px;
+              }
+            }
           }
-          span{
-            margin-right: 0.05rem;
-          }
-        }
-        ul{
-          display: none;
         }
       }
     }
+  }
 
-    #welcome{
-      #welcome-video{
-        left: -650px;
-        right: 0;
-        width: auto;
+
+  @media screen and (max-width: 1024px) {
+    html {
+      font-size: 50%;
+    }
+    #page-content {
+      #welcome {
+        height: 80vh;
+
+        #welcome-video {
+          width: 180vh;
+        }
       }
-      #welcome-content{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 70vh;
-        font-size: 50%;
-        h1{
-          font-size: 2750%;
-          text-align: center;
+
+      #attractions {
+        height: 58vh;
+
+        .section-container {
+          margin: 4rem;
+
+          #gallery {
+            .card {
+              height: 41vh;
+
+              .card-text {
+                h1 {
+                  top: -66px;
+                  left: -9px;
+                }
+              }
+            }
+          }
         }
-        p{
-          font-size: 1500%;
-          margin-top: 4rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1024px) and (max-height: 768px) {
+    #page-content {
+      #attractions {
+        height: 80vh;
+
+        .section-container {
+          #gallery {
+            .card {
+              height: 58vh;
+            }
+          }
         }
-        .fa-arrow-down{
-          font-size: 3000%;
-          margin-left: -8rem;
+      }
+    }
+  }
+
+  // Tablets
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 30%;
+    }
+    #page-content {
+      #welcome {
+        #welcome-content {
+          height: 80vh;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    #attractions {
+       height: 49vh;
+
+       .section-container {
+         margin: 4rem;
+
+         #gallery {
+           .card {
+             height: 37vh;
+
+             .card-text {
+               h1 {
+                 top: -45.28px;
+                 left: -5px;
+               }
+             }
+           }
+         }
+       }
+     }
+    }
+  }
+
+  // Phones + Small Devices
+  @media screen and (max-width: 550px) {
+    html {
+      font-size: 15%;
+    }
+    #page-content {
+      #nav-bar {
+        #nav-bar-content {
+          display: flex;
+          justify-content: center;
+          border-bottom: $primary-border 1px dashed;
+
+          h1 {
+            font-size: 1250%;
+
+            .logo-word {
+              margin-right: 1rem;
+            }
+
+            span {
+              margin-right: 0.05rem;
+            }
+          }
+
+          ul {
+            display: none;
+          }
+        }
+      }
+
+      #welcome {
+        #welcome-video {
+          left: -650px;
+          right: 0;
+          width: auto;
+        }
+
+        #welcome-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 70vh;
+          font-size: 50%;
+
+          h1 {
+            font-size: 2750%;
+            text-align: center;
+          }
+
+          p {
+            font-size: 1500%;
+            margin-top: 4rem;
+          }
+
+          .fa-arrow-down {
+            font-size: 3000%;
+            margin-left: -8rem;
+          }
+        }
+      }
+      #attractions{
+        height: 138vh;
+        #attractions-content{
+          h1{
+            font-size: 350%;
+          }
+          p{
+            font-size: 125%;
+          }
+          #gallery {
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: none;
+            grid-gap: 4rem;
+            .card{
+              width: 75vw;
+              height: 39vh;
+              .card-text {
+                h1 {
+                  top: -40.28px;
+                  left: -2px;
+                  font-size: 150%;
+                }
+                p{
+                  margin-top: -8rem;
+                }
+                .button-visit{
+                  .button-link{
+                    font-size: 175%;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
