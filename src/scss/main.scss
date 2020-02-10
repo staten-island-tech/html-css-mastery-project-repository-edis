@@ -11,14 +11,14 @@
   display: flex;
   justify-content: center;
   user-select: none;
-   #welcome-video{
-     position: fixed;
-     left: 0;
-     top: 0;
-     width: 100%;
-     height: auto;
-     z-index: -1;
-   }
+  #welcome-video{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
   #welcome-content{
     display: flex;
     flex-direction: column;
@@ -58,17 +58,17 @@
       padding-bottom: 1rem;
     }
   }
- }
+}
 
 #attractions{
-  height: 70vh;
+  height: 74vh;
   background: lighten($secondary-light, 20%);;
   margin: 0 -4rem;
   #attractions-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 400%;
+    font-size: 350%;
     h1{
       text-align: center;
       margin: 2rem 0 -2rem 0;
@@ -84,7 +84,7 @@
       grid-gap: 2rem;
       margin-top: 2rem;
       .card{
-        height: 47vh;
+        height: 53vh;
         border: 1px solid $primary-dark;
         text-align: left;
         background: lighten($primary-light, 30%);
@@ -167,6 +167,3 @@
 
 // Import Media Queries
 @import "media";
-
-
-
